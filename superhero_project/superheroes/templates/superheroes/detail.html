@@ -8,14 +8,12 @@
 </head>
 <body>
     <h1>Details about Superhero</h1>
-    <ul>
-        {% for hero in single_hero %}
-        <li><h2>Superhero: {{hero.name}}</h2></li>
-        <li>Alter Ego: {{hero.alter_ego}}</li>
-        <li>Primary Ability: {{hero.primary_ability}}</li>
-        <li>Secondary Ability: {{hero.secondary_ability}}</li>
-        <li>Catchphrase: {{hero.catchphrase}}</li>
-        {% endfor %}
+    <ul>        
+        <li><h2>Superhero: {{single_hero.name}}</h2></li>
+        <li>Alter Ego: {{single_hero.alter_ego}}</li>
+        <li>Primary Ability: {{single_hero.primary_ability}}</li>
+        <li>Secondary Ability: {{single_hero.secondary_ability}}</li>
+        <li>Catchphrase: {{single_hero.catch_phrase}}</li>        
     </ul>
     
 </body>
